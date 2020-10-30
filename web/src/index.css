@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.qrcode {
+    display:inline;
+    justify-items: center;
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://miro.medium.com/max/3840/1*Zs8QnWjtAH61XVbxZW74yw.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#root {
+    display:flex;
+    padding: 150px;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    padding: 20px;
+    background-image: url("https://cdn5.gomag.ro/domains/verdeco.ro/files/product/original/Fototapet-imitatii-00150-WG-2518-927710.jpg");
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.qrcodeInput {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color:#fafafa;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.qrcodeInput:focus {
+    border-bottom-color: #DEB887;
+}
